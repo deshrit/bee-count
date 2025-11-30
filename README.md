@@ -37,3 +37,9 @@ This will output as:
 ```bash
 python -m unittest
 ```
+
+## Training the model
+
+After installing the necessary dependencies simply running `count-bees.ipynb` nootebook
+all at once will generate all the parameters, figures and model in the current 
+directory.  
