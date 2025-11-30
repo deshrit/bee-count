@@ -5,8 +5,11 @@ Clone this repository and run the following commands:
 1. Virtual environment
 
 ```bash
+cd bee-count
+
 python3 -m venv .venv
-source .venv/bin/active
+
+source .venv/bin/activate
 ```
 
 2. Install dependencies
@@ -21,7 +24,7 @@ If the trained model is not present locally, it will download from hugging-face 
 [model-repo](https://huggingface.co/deshrit/bee-count/tree/main) and run the inference.
 
 ```bash
-./sample_solution.py <image file>
+./sample_solution.py <image_file>
 ```
 
 This will output as:

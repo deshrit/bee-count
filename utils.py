@@ -45,6 +45,6 @@ def get_model(model_path: str) -> FasterRCNN:
         download_model_hugging_face()
 
     model_loaded = get_model_cls()
-    state_dict = torch.load(model_path)
+    state_dict = torch.load(model_path, map_location=torch.device("cpu"))
     model_loaded.load_state_dict(state_dict)
     return model_loaded
