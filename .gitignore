@@ -1,0 +1,16 @@
+.vscode
+.venv
+.ipynb_checkpoints
+*.pt
+__pycache__
+
+.cache
+
+# dataset dir
+honeybee
+
+.env
+.gitattributes
+
+# prediction output
+predicted.jpg
