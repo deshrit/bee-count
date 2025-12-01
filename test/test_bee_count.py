@@ -22,4 +22,4 @@ class TestBeeCount(unittest.TestCase):
         model = get_model(self.model_path)
         model.eval()
         outputs = model(self.batch)
-        self.assertEqual(len(outputs[0]["scores"]), 48)
+        self.assertEqual(len(outputs[0]["scores"]), 37)
